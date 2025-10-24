@@ -14,6 +14,7 @@ class TrainingPipelineConfig:
         self.pipeline_name = training_pipeline.PIPELINE_NAME
         self.artifact_name = training_pipeline.ARTIFACT_DIR 
         self.artifact_dir = os.path.join(self.artifact_name, timestamp) # Builds a unique path like Artifacts/10_23_2025_17_45_32/.
+        self.model_dir = os.path.join("final_model")
         self.timestamp: str = timestamp
 
 """
