@@ -1,2 +1,6 @@
 venv
 .env
+Artifacts 
+final_model 
+logs
+NetworkSecurity.egg-info
