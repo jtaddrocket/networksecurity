@@ -16,6 +16,7 @@ Requires-Dist: mlflow
 Requires-Dist: dagshub
 Requires-Dist: fastapi
 Requires-Dist: uvicorn
+Requires-Dist: python-multipart
 Dynamic: author
 Dynamic: author-email
 Dynamic: requires-dist
