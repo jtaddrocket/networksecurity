@@ -29,8 +29,7 @@ import dagshub
 dagshub.init(
     repo_owner='jtaddrocket',
     repo_name='networksecurity',
-    mlflow=True,
-    token=os.getenv("DAGSHUB_TOKEN")
+    mlflow=True
     )
 
 class ModelTrainer:
